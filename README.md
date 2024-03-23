@@ -27,4 +27,4 @@ analyze it as above.
 The runtime would be $\Theta(V^2)$. The outer ```for``` loop iterates through the length of the given matrix, which is just the number of vertices. The inner ```for``` also runs for the same number of iterations and since every other operation in the function is a constant we're left with $\Theta(V^2)$. 
 
 ### Adjacency List to Matrix
-The runtime would be $\Theta(V^2 + (VE))$. The outer ```for``` iterates through the vertices of the given list, then within that loop an array of zeros is initialized also with the number of vertices, thus we have a runtime of $V^2$. Additionally within the ```for``` loop the function iterates through all vertices connected to a particular vertex. Therefore our final runtime is $\Theta(V^2 + (VE))$.
+The runtime would be $\Theta(V^2 + (VE))$. The outer ```for``` iterates through the vertices of the given list, then within that loop an array of zeros is initialized also with the number of vertices, thus we have a runtime of $V^2$. Additionally within the ```for``` loop the function iterates through all vertices connected to a particular vertex. Therefore our final runtime is $\Theta(V^2)$.
